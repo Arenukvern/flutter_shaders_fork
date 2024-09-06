@@ -4,7 +4,7 @@ import 'package:flutter_shaders/flutter_shaders.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:vector_math/vector_math.dart';
 
-class _MockFragmentShader implements FragmentShader {
+final class _MockFragmentShader implements FragmentShader {
   final floats = <int, double>{};
   final images = <int, Image>{};
 
